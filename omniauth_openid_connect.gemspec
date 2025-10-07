@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   }
 
   spec.add_dependency 'omniauth', '>= 1.9', '< 3'
-  spec.add_dependency 'openid_connect', '~> 2.2'
+  spec.add_dependency 'openid_connect', git: 'https://github.com/tvestelind/openid_connect', branch: 'handle-jwt-in-userinfo'
   spec.add_development_dependency 'faker', '~> 2.0'
   spec.add_development_dependency 'guard', '~> 2.14'
   spec.add_development_dependency 'guard-bundler', '~> 2.2'
